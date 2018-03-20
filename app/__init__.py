@@ -7,7 +7,7 @@ UPLOAD_FOLDER = "./app/static/profilepictures"
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "password123"
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://avaughn:password123@localhost/users"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://hevtqezckdlcxd:1417b62d5bc83dd2b8f4b213d628f2b59bc8a2eb6becdd674867a72ee7154fe9@ec2-174-129-225-9.compute-1.amazonaws.com:5432/debr9fteudhtcs"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # added just to suppress a warning
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
