@@ -4,8 +4,8 @@
 
 {% include 'flash_messages.html' %}
 {% for field, errors in form.errors.items() %}
-<div class="alert alert-error">
-    {{ form[field].label }}: {{ ', '.join(errors) }}
+<div class="error">
+    <p>{{ form[field].label }}: {{ ', '.join(errors) }}</p>
 </div>
 {% endfor %}
 <form method = 'POST' enctype = "multipart/form-data"  action = "{{url_for('profile')}}">

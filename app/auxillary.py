@@ -1,4 +1,4 @@
-import datetime,pytz
+import datetime, pytz
 
 def get_date():
     """Return datetime object with current date"""
