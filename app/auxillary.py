@@ -1,8 +1,5 @@
 import datetime,pytz
 
-def allowed_file(filename):
-    return filename.endswith(('.png','.jpg'))
-
 def get_date():
     """Return datetime object with current date"""
     jamaica = pytz.timezone("America/Jamaica")
